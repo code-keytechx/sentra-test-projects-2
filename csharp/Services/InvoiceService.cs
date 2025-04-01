@@ -51,7 +51,9 @@ namespace Sample.Api.Services.Accounting
                 {
                     Id = i.Id,
                     CustomerName = i.CustomerName,
-                    InvoiceDate = i.InvoiceDate
+                    InvoiceDate = i.InvoiceDate,
+                    TotalAmount = i.TotalAmount,
+                    Status = i.Status,
                 })
                 .ToList();
 
