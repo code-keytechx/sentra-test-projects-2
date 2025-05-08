@@ -53,9 +53,7 @@ namespace Sample.Api.Services.Accounting
                     CustomerName = i.CustomerName,
                     InvoiceDate = i.InvoiceDate,
                     TotalAmount = i.TotalAmount,
-                    Status = i.Status,
-                    ExportedDate = i.ExportedDate,
-                    ExportedBy = i.ExportedBy,
+                    Status = i.Status
                 })
                 .ToList();
 
