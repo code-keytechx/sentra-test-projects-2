@@ -54,8 +54,7 @@ namespace Sample.Api.Services.Accounting
                     InvoiceDate = i.InvoiceDate,
                     TotalAmount = i.TotalAmount,
                     Status = i.Status,
-                    ExportingBy = i.ExportingBy,
-                    ExportDate = i.ExportDate
+                    ExportingBy = i.ExportingBy
                 })
                 .ToList();
 
